@@ -1,4 +1,4 @@
-const getUserId = require('../utils/getUserId')
+import getUserId from '../utils/getUserId'
 
 const User = {
     email: {
@@ -33,4 +33,4 @@ const User = {
     }
 }
 
-module.exports = User
+export default User

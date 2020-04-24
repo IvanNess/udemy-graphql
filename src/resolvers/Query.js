@@ -1,4 +1,4 @@
-const getUserId = require('../utils/getUserId')
+import getUserId from '../utils/getUserId'
 
 const Query = {
     me: (parent, args, { request, prisma }, info) => {
@@ -108,4 +108,4 @@ const Query = {
     }
 }
 
-module.exports = Query
+export default Query

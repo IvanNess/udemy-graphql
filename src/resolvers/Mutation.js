@@ -1,9 +1,8 @@
-const bcrypt = require('bcryptjs')
-const jwt = require('jsonwebtoken')
+import bcrypt from 'bcryptjs'
 
-const getUserId = require('../utils/getUserId')
-const generateToken = require('../utils/generateToken')
-const hashPassword = require('../utils/hashPassword')
+import getUserId from '../utils/getUserId' 
+import generateToken from '../utils/generateToken'
+import hashPassword from '../utils/hashPassword'
 
 const Mutation = {
     createComment: async (parent, args, { prisma, request }, info) => {
@@ -173,4 +172,4 @@ const Mutation = {
     }
 }
 
-module.exports = Mutation
+export default Mutation

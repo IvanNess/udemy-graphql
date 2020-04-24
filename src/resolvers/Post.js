@@ -5,4 +5,4 @@ const Post = {
   //   }}, info)
   // }
 }
-module.exports = Post
+export default Post

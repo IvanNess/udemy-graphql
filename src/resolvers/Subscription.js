@@ -1,4 +1,4 @@
-const getUserId = require('../utils/getUserId')
+import getUserId from '../utils/getUserId'
 
 const Subscription = {
     post: {
@@ -37,4 +37,4 @@ const Subscription = {
     }
 }
 
-module.exports = Subscription
+export default Subscription
